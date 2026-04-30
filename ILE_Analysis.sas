@@ -61,6 +61,11 @@ tables hyperten * trtmt*whf / chisq nocol nopercent cmh /*statistical test for i
 	oddsratio	(cl=wald);
 run;
 
+/**** Formally Assessing Interaction via Logistic Regression ****/
+proc logistic data = dig3;
+	class trtmt (ref = "B-Placebo") hyperten (ref = "0") / param=ref;
+	model whf(event="A-Yes") = trtmt|hyperten / cl;
+run;
 
 /****Stratified ORs for Forest Plot****/
 ods output OddsRatios=ORs; /*Saving the corresponding ORs*/
