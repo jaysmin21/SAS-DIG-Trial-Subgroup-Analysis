@@ -49,10 +49,3 @@ The DIG trial dataset contains baseline and follow-up data on **6,800 subjects**
 ## Reference
 
 The Digitalis Investigation Group. (1997). The effect of digoxin on mortality and morbidity in patients with heart failure. *New England Journal of Medicine, 336*(8), 525–533.
-
-Breslow-Day test for homogeneity of odds ratios
-ODS GRAPHICS for publication-quality forest plot output
-Regulatory-adjacent documentation (written report with methods and limitations)
-Reference
-The Digitalis Investigation Group. (1997). The effect of digoxin on mortality and morbidity in patients with heart failure. New England Journal of Medicine, 336(8), 525–533.
-
